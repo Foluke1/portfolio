@@ -1,23 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/81cf669ca3.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <style>
+        .header{
+            position: fixed;
+            z-index: 1;
+            width: 50px;
+            width: 1341px;
+            background-color: azure;
+
+            
+        }
         ol li{
             display: inline-block;
             list-style-type: none;
-            margin-left: 150px;
+            margin-left: 30px;
             position: relative;
-            top: -53px;
+            top: -23px;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             text-align: justify;
-            padding:-90px;
+            left: 560px;
         }
         img{
-            margin-top:60px;
-            margin-left: 80px;
+            position: relative;
+            left: 80px;
+            top: 30px;
         
         }
         .container{
@@ -31,11 +42,11 @@
         h4{
             font-weight: 100;
             font-size: xx-large;
-            color: brown;
+            color: black;
         }
         .main{
-            background-color: aqua;
-            width: 1500px;
+            background-color: grey;
+            width: 1387px;
         }
         h2{
             margin-left: -800px;
@@ -49,15 +60,18 @@
             margin-left: -800px;
             margin-top: -20px;
             font-size: 55px;
+            position: relative;
+            top: 300px;
         }
         #months{
             margin-left: -800px;
-            margin-top: -120px;
+            margin-top: 159px;
             color: crimson;
             font-size: 20px;
-
+            position: relative;
+            top: 178px;
         }
-        #num{margin-top: -55px;
+        #num{margin-top: 146px;
             margin-left: -635px;
             font-size: 55px;
         }
@@ -81,7 +95,7 @@
         }
         #About{
             margin-left: 615px;
-            margin-top: 280px;
+            margin-top: 186px;
             color: #fff;
             font-size: 49px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -97,6 +111,9 @@
         #qual{
             font-size: 50px;
             color: #fff;
+            position: relative;
+            top: 76px;
+            left: -40px;
         }
         .flexbox{
             display: flex;
@@ -104,7 +121,7 @@
         }
         #serv{
             margin-left: 610px;
-            margin-top: 280px;
+            margin-top: 171px;
             color: #fff;
             font-size: 49px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -114,13 +131,20 @@
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-style: italic;
             font-weight: bolder;
+            position: relative;
+            top: 167px;
         }
         h4{
             width:80%;
             font-size: 25px;
             text-align: justify;
             margin-left: 41px;
-        }
+            position: relative;
+            top: 180px;
+}
+    /* .fa-brands{
+    margin-left:300px
+} */
         .fleximage  img{
             margin-right: 82px;
         }
@@ -129,15 +153,16 @@
         }
         #talk{
             margin-bottom: 60px;
-            font-size: 40px;
+            font-size: 25px;
             color: #fff;
-            margin-left: -853px;
-            
+            margin-left: -824px;
+            position: relative;
+            top: 191px;
         }
         .footer{
             background-color: #000;
-            height: 400px;
-    
+            height: 260px;
+            margin-top: 264px;
         }
         .flextext2{
             display: flex;
@@ -146,6 +171,9 @@
         }
         .fleximage2{
             display: flex;
+        }
+        body{
+            overflow-x: hidden;
         }
         
     </style>
@@ -169,15 +197,15 @@
     <div class="container">
         <!-- <div class="flexbox"> -->
             <div class="flextext">
-                <h1>Hi, I am <strong style="color: blue;">Mofoluwake,</strong><br>Web Developer.</h1>
-                <hr style="width: 60px;margin-left: 40px; height: 4px; background-color: green; border: none;">
+                <h1 style="width: 50%;">Hi, I am <strong style="color: blue;">Mofoluwake,</strong> Web Developer.</h1>
+                <hr style="width: 110px; margin-left: 40px; height: 5px; background-color: green; border: none; position: relative; top: 171px;">
                 <h4>I am currently a Front-end Developer, integrating into a Fullstack Web Developer, I can provide clean code. I can as well build an interactive Website. A responsive design which makes your website accessible to all users, regardless of their device.</h4>
-            <br>
-            <hr style="width:630px;margin-left: 46px;">
+            <hr style="width:630px;margin-left: 46px; position: relative;
+            top: 180px;">
             </div>
         <!-- </div> -->
         <div class="fleximage">
-            <img src="foluke.jpg"width="350";height="20px";padding-right:40px;>
+            <img src="foluke.jpg" style="width: 277px; height: 293px; position: relative; left: -154px; top: 228px;">
             <h2 id="fig">3</h2>
             <p id="months">Months <br>Experience</p>
 
@@ -194,14 +222,14 @@
     <hr style="width: 37px;margin-left: 652px; height: 4px; background-color: green; border: none;">
     
     <div class="flextext1">
-     <h1 style="margin-left: 65px; font-stretch:extra-expanded;font-family: Arial, Helvetica, sans-serif;font-size: 55px;">I'm a Professional and <br>Experienced Frontend<br> Developer.</h1>  
+     <h1 style="margin-left: 65px; font-stretch:extra-expanded;font-family: Arial, Helvetica, sans-serif;font-size: 55px; position: relative; top: -10px;">I'm a Professional and <br>Experienced Frontend<br> Developer.</h1>  
      <p style="margin-left: 40px;font-size: 20px;"> I am passion driven when it comes to web development,<br><br>I'm proficient in varieties of the programming languages <br><br>such as:<strong style="color: #fff;">CSS,JAVASCRIPT,TYPESCRIPT,<br><br>REACT,BOOTSTRAP,TAILWIND</strong> and more.</p> 
-    <button style="margin-left: 40px;margin-top: 20px;width: 100px; ; height: 40px;background-color: darkgreen;color: #fff; border-radius: 7px;">Know More</button>
+    <button style="margin-left: 40px;margin-top: 20px;width: 140px; ; height: 50px;background-color: darkgreen;color: #fff;  border:none; cursor:pointer;">Know More</button>
     </div>
      
 
     <p id="qual">Qualification</p>
-    <hr style="width: 60px;margin-left: 660px; height: 4px; background-color: green; border: none;">
+    <hr style="width: 101px; margin-left: 660px; height: 5px; background-color: green; border: none; position: relative; top: 45px;">
     <h4 style="margin-left: 95px;">Educational Experience</h4>
     <hr style="width: 1200px;">
     <div class="flextext3">
@@ -219,12 +247,12 @@
     <div class="flexbox2">
         <div class="fleximage3">
             <img src="frontend.jpg" width="400" height="350" >
-            <img src="back end.jpg" width="400" height="350" >
+            <img src="back end.jpg" width="400" height="350">
         </div>
     </div>
     
 
-    <h3 style="margin-left: 600px;margin-top: 60px;color: #fff;font-size: 50px;" id="Projects">Projects</h3>
+    <h3 style="margin-left: 600px;margin-top: 60px;color: #fff;font-size: 50px; position: relative; top: 30px;"  id="Projects">Projects</h3>
     <div class="flexbox">
         <div class="flex image2">
             <img src="desktop-design.jpg" width="350" height="260px">
@@ -232,28 +260,30 @@
             <img src ="card.jpg" width="350" height="260px">
         </div>
     </div>
-    <hr style="width: 1200px;">
+    <hr style="width: 1200px; position: relative; top: 188px; left: -12px;">
 
     <div class="flextext1">
-        <p id="talk">Interested in working <br>together? Let's talk</h2><br>
-        <p style="font-size: 28px; margin-left: 80px;margin-right: 550px;">It provides a convenient way for potential clients to view your work while also allowing you to expand on your skills and services.</p>
-        <button style="width: 120px; height: 38px;border-radius: 9px; background-color:darkgreen;color: #fff; margin-right: 100px; margin-top: -170px;float: right;">Get in touch</button>
+        <p id="talk">Interested in working together? Let's talk</h2>
+        <p style="font-size: 28px; margin-left: 36px;margin-right: 550px; width:39%; position: relative; top: 170px;">It provides a convenient way for potential clients to view your work while also allowing you to expand on your skills and services.</p>
+        <button style="width: 160px; height: 45px; background-color:darkgreen;color: #fff; margin-right: 190px; margin-top: -170px;float: right; cursor: pointer; border: none; position: relative; top: 230px;">Get in touch</button>
     </div>
 
     <div class="footer">
         <div class="flextext2">
-            <p style="color: #fff;font-size: 25px;">Follow Me</p>
-            <p style="color: #fff;font-size: 25px;">Email Me</p>
+            <p style="color: #fff;font-size: 45px; position: relative; top: 30px;">Follow Me</p>
+            <p style="color: #fff;font-size: 45px; position: relative; top: 30px; left: -1px;">Email Me</p>
+             <p style="color: #fff; font-size: 20px; margin-left: -170px; position: relative; top: 110px;">koladefoluke84@gmail.com</p>
         </div>
         <div class="fleximage2">
-            <img src="facebook.jpg" width="55px" height="35px">
-            <img src="instagram.jpg" width="55px" height="35px">
-            <img src="twitter.jpg" width="55px" height="35px">
-            <img src="github.jpg" width="55px" height="35px">
-            <p style="color: #fff; font-size: 28px; margin-top: 60px ;margin-left: 200px;">koladefoluke84@gmail.com</p>   
+            <i class="fa-brands fa-facebook" style="width:100%; height:300px; margin-left:120px; margin-top: 20px; color:#fff;"></i>
+            <i class="fa-brands fa-linkedin"  style="width:100%; height:300px; margin-left:-450px; margin-top: 20px; color:#fff"></i>
+            <i class="fa-brands fa-x-twitter" style="width:100%; height:300px; margin-left:-450px; margin-top: 20px; color:#fff;"></i>
+            <i class="fa-brands fa-github" style="width:100%; height:300px; margin-left:-450px; margin-top: 20px; color:#fff;"></i>
+            <i class="fa-brands fa-instagram" style="width:100%; height:300px; margin-left:-450px; margin-top: 20px; color:#fff;"></i>
+          
         </div>
-        <hr style="width: 1200px;">
-            <h4 style="margin-left: 570px;"> © 2023 Copyright. All Rights Reserved</h4>
+        <hr style="width: 1200px; position: relative; top:-260px; colour:#fff">
+            <h4 style="position: relative; top: -280px; font-size: 15px; left: 520px; color: gray;"> © 2023 Copyright. All Rights Reserved</h4>
 
        
     </div>
